@@ -21,17 +21,14 @@ header {
 .pie {
     display: flex;
     float: left;
-    margin-top: 45px;
 }
 
 .pie2 {
-    margin-right: 30px;
-    padding-right: 20px;
+    float: left;
 }
 
 .pie3 {
-    margin-right: 30px;
-    padding-right: 20px;
+    float: left;
 }
 
 .feed {
