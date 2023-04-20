@@ -23,18 +23,24 @@ header {
 .texto1 {
     text-align: center;
 }
-  
+
+footer {
+    background-color: black;
+    color: white
+}
+
 .pie {
     display: flex;
     float: left;
+    color: white;
 }
 
 .pie2 {
-    float: left;
+    color: white;
 }
 
 .pie3 {
-    float: left;
+    color: white;
 }
 
 .feed {
@@ -47,7 +53,7 @@ header {
     text-align: center;
     justify-items: center;
     flex-direction: column;
-    font-size: 45px;
+    font-size: 25px;
 }
   
 .sobre {
