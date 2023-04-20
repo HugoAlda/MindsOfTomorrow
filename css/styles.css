@@ -12,13 +12,15 @@ header {
     text-align: center;
     justify-items: center;
     flex-direction: column;
-  }
+}
   
-  .texto1 {
+.texto1 {
     text-align: center;
-  }
+}
   
-  .feed {
+
+
+.feed {
     text-align: center;
     display: flex;
     background-color: rgb(9, 113, 113);
@@ -28,32 +30,32 @@ header {
     text-align: center;
     justify-items: center;
     flex-direction: column;
-  }
+}
   
-  .sobre {
+.sobre {
     display: flex;
-  }
+}
   
   .ayuda {
     display: flex;
     background-color: gray;
-  }
+}
   
-  .img_gatos {
+.img_gatos {
     float: left;
     clear: both;
     display: flex;
     flex-direction: row;
-  }
+}
   
-  .img_gatos_33 {
+.img_gatos_33 {
     width: 33.33%;
     float: left;
-  }
+}
   
-  /* MEDIA QUERY*/
+/* MEDIA QUERY*/
   
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
       margin-right: 0;
     }
@@ -93,9 +95,9 @@ header {
     .texto6 {
       font-size: 25px;
     }
-  }
+}
     
-  @media screen and (min-width: 601px) {
+@media screen and (min-width: 601px) {
     
     .mapa {
       display: flex;
@@ -140,4 +142,4 @@ header {
     .texto6 {
       font-size: 37px;
     }
-  }  
+}  
