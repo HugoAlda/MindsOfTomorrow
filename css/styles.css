@@ -5,11 +5,10 @@ header {
     background-size: scale;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/banner-2.jpg);
     background-size: cover;
     background-position: center;
     color: black;
-    padding: 50px;
     text-align: center;
     justify-items: center;
     flex-direction: column;
