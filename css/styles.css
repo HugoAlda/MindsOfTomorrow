@@ -1,0 +1,155 @@
+header {
+    width: 93%;
+    height: 100vh;
+    color: black;
+    background-size: scale;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 50px;
+    text-align: center;
+    justify-items: center;
+    flex-direction: column;
+  }
+  
+  .texto1 {
+    text-align: center;
+  }
+  
+  .feed {
+    text-align: center;
+    display: flex;
+    background-color: rgb(9, 113, 113);
+    flex-wrap: wrap;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    flex-direction: column;
+  }
+  
+  .fecha {
+    text-align: center;
+    display: flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    flex-direction: column;
+    font-size: 22px;
+  }
+  
+  .sobre {
+    display: flex;
+  }
+  
+  .ayuda {
+    display: flex;
+    background-color: gray;
+  }
+  
+  .img_gatos {
+    float: left;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .img_gatos_33 {
+    width: 33.33%;
+    float: left;
+  }
+  
+  /* MEDIA QUERY*/
+  
+  @media screen and (max-width: 600px) {
+    body {
+      margin-right: 0;
+    }
+      
+    .row1, .col1, .col2, .col3, .col4, .col5, .col6 {
+      width: 100%;
+    }
+      
+    .row1 {
+      height: auto;
+    }
+      
+    .row2, .row3, .row4 {
+      flex-direction: column;
+    }
+      
+    .section1, .section2, .section3, .section4, .section5 {
+      height: auto;
+    }
+      
+    .texto1 {
+      font-size: 40px;
+    }
+      
+    .texto2 {
+      font-size: 30px;
+    }
+      
+    .texto3, .texto5, .texto7 {
+      font-size: 20px;
+    }
+      
+    .texto4 {
+      font-size: 30px;
+    }
+      
+    .texto6 {
+      font-size: 25px;
+    }
+  }
+    
+  @media screen and (min-width: 601px) {
+    
+    .mapa {
+      display: flex;
+      float: left;
+      flex-wrap: wrap;
+    }
+    
+    body {
+      margin-right: 15px;
+    }
+      
+    .row1 {
+      height: 170px;
+    }
+      
+    .col1, .col2 {
+      width: 50%;
+    }
+      
+    .col3, .col6 {
+      width: 50%;
+      height: 200px;
+    }
+      
+    .col4, .col5 {
+      width: 50%;
+      height: 170px;
+    }
+      
+    .texto2 {
+      font-size: 47px;
+    }
+     
+    .texto3, .texto5, .texto7 {
+      font-size: 25px;
+    }
+      
+    .texto4 {
+      font-size: 47px;
+    }
+      
+    .texto6 {
+      font-size: 37px;
+    }
+  }  
