@@ -26,7 +26,10 @@ header {
 
 footer {
     background-color: black;
-    color: white
+    color: white;
+    padding: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .pie {
