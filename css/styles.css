@@ -50,10 +50,10 @@ footer {
 .feed {
   text-align: center;
   display: flex;
-  background-color: rgb(9, 113, 113);
+  background-color: rgb(96, 177, 239);
   flex-wrap: wrap;
   padding: 1rem;
-  color: white;
+  color: black;
   text-align: center;
   justify-items: center;
   flex-direction: column;
