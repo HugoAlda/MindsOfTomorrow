@@ -63,14 +63,20 @@ footer {
 .sobre {
   display: flex;
 }
-  
+
 .ayuda {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
-.img {
+.ayuda img {
   width: 25%;
-  height: 25%;
+  height: auto;
+  padding: 5px;
 }
 
 .img_gatos {
