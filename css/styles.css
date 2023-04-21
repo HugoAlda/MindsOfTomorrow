@@ -5,162 +5,162 @@
 }
 
 header {
-    background-image: url(../img/banner-2.jpg);
+  background-image: url(../img/banner-2.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 100vh;
-    text-align: center;
-    align-items: center;
+  text-align: center;
+  align-items: center;
 }
 
 .texto1 {
-    text-align: center;
+  text-align: center;
 }
 
 footer {
-    background-color: black;
-    color: white;
-    padding: 200px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+  background-color: black;
+  color: white;
+  padding: 200px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .pie {
-    display: flex;
-    float: left;
-    color: white;
+  display: flex;
+  float: left;
+  color: white;
 }
 
 .pie2 {
-    color: white;
+  color: white;
 }
 
 .pie3 {
-    color: white;
+  color: white;
 }
 
 .feed {
-    text-align: center;
-    display: flex;
-    background-color: rgb(9, 113, 113);
-    flex-wrap: wrap;
-    padding: 1rem;
-    color: white;
-    text-align: center;
-    justify-items: center;
-    flex-direction: column;
-    font-size: 25px;
+  text-align: center;
+  display: flex;
+  background-color: rgb(9, 113, 113);
+  flex-wrap: wrap;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  justify-items: center;
+  flex-direction: column;
+  font-size: 25px;
 }
   
 .sobre {
-    display: flex;
+  display: flex;
 }
   
 .ayuda {
-    display: flex;
-    background-color: gray;
+  display: flex;
+  background-color: gray;
 }
   
 .img_gatos {
-    float: left;
-    clear: both;
-    display: flex;
-    flex-direction: row;
+  float: left;
+  clear: both;
+  display: flex;
+  flex-direction: row;
 }
   
 .img_gatos_33 {
-    width: 33.33%;
-    float: left;
+  width: 33.33%;
+  float: left;
 }
   
 /* MEDIA QUERY*/
   
 @media screen and (max-width: 600px) {
-    body {
-      margin-right: 0;
-    }
+  body {
+    margin-right: 0;
+  }
       
-    .row1, .col1, .col2, .col3, .col4, .col5, .col6 {
-      width: 100%;
-    }
+  .row1, .col1, .col2, .col3, .col4, .col5, .col6 {
+    width: 100%;
+  }
       
-    .row1 {
-      height: auto;
-    }
+  .row1 {
+    height: auto;
+  }
       
-    .row2, .row3, .row4 {
-      flex-direction: column;
-    }
+  .row2, .row3, .row4 {
+    flex-direction: column;
+  }
       
-    .section1, .section2, .section3, .section4, .section5 {
-      height: auto;
-    }
+  .section1, .section2, .section3, .section4, .section5 {
+    height: auto;
+  }
       
-    .texto1 {
-      font-size: 40px;
-    }
+  .texto1 {
+    font-size: 40px;
+  }
       
-    .texto2 {
-      font-size: 30px;
-    }
+  .texto2 {
+    font-size: 30px;
+  }
       
-    .texto3, .texto5, .texto7 {
-      font-size: 20px;
-    }
+  .texto3, .texto5, .texto7 {
+    font-size: 20px;
+  }
       
-    .texto4 {
-      font-size: 30px;
-    }
+  .texto4 {
+    font-size: 30px;
+  }
       
-    .texto6 {
-      font-size: 25px;
-    }
+  .texto6 {
+    font-size: 25px;
+  }
 }
     
 @media screen and (min-width: 601px) {
     
-    .mapa {
-      display: flex;
-      float: left;
-      flex-wrap: wrap;
-    }
+.mapa {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+  }
     
-    body {
-      margin-right: 15px;
-    }
+  body {
+    margin-right: 15px;
+  }
       
-    .row1 {
-      height: 170px;
-    }
+  .row1 {
+    height: 170px;
+  }
       
-    .col1, .col2 {
-      width: 50%;
-    }
+  .col1, .col2 {
+    width: 50%;
+  }
       
-    .col3, .col6 {
-      width: 50%;
-      height: 200px;
-    }
+  .col3, .col6 {
+    width: 50%;
+    height: 200px;
+  }
       
-    .col4, .col5 {
-      width: 50%;
-      height: 170px;
-    }
+  .col4, .col5 {
+    width: 50%;
+    height: 170px;
+  }
       
-    .texto2 {
-      font-size: 47px;
-    }
+  .texto2 {
+    font-size: 47px;
+  }
      
-    .texto3, .texto5, .texto7 {
-      font-size: 25px;
-    }
+  .texto3, .texto5, .texto7 {
+    font-size: 25px;
+  }
       
-    .texto4 {
-      font-size: 47px;
-    }
+  .texto4 {
+  font-size: 47px;
+  }
       
-    .texto6 {
-      font-size: 37px;
-    }
+  .texto6 {
+    font-size: 37px;
+  }
 }  
