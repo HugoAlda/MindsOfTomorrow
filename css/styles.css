@@ -67,7 +67,12 @@ footer {
 .ayuda {
   display: flex;
 }
-  
+
+.img {
+  width: 25%;
+  height: 25%;
+}
+
 .img_gatos {
   float: left;
   clear: both;
