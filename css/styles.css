@@ -45,9 +45,26 @@ footer {
   flex-direction: column;
   font-size: 25px;
 }
-  
+
+.img2 {
+  float: right;
+  width: 50%; /* Ajusta el ancho de la imagen a tu gusto */
+  margin: 0 0 10px 10px; /* Ajusta el margen de la imagen a tu gusto */
+}
+
+.img3 {
+  float: left;
+  width: 50%; /* Ajusta el ancho de la imagen a tu gusto */
+  margin: 0 0 10px 10px; /* Ajusta el margen de la imagen a tu gusto */
+}
+
+.sobre2 {
+  margin: 0; /* Elimina el margen por defecto del párrafo */
+}
+
 .sobre {
-  display: flex;
+  width: 100%;
+  overflow: hidden; /* Para que el contenedor tenga la altura de la imagen */
 }
 
 .ayuda {
