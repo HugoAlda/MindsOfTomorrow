@@ -12,6 +12,14 @@ header {
 	height: 100vh;
   text-align: center;
   align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+body {
+  margin-top: 100px;
+  overflow-y: scroll;
 }
 
 .texto1 {
