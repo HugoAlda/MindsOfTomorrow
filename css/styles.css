@@ -33,20 +33,6 @@ footer {
   padding-top: 50px;
 }
 
-.pie {
-  display: flex;
-  float: left;
-  color: white;
-}
-
-.pie2 {
-  color: white;
-}
-
-.pie3 {
-  color: white;
-}
-
 .feed {
   text-align: center;
   display: flex;
@@ -74,23 +60,10 @@ footer {
 }
 
 .ayuda img {
-  width: 25%;
+  width: 24.78%;
   height: auto;
-  padding: 5px;
 }
 
-.img_gatos {
-  float: left;
-  clear: both;
-  display: flex;
-  flex-direction: row;
-}
-  
-.img_gatos_33 {
-  width: 33.33%;
-  float: left;
-}
-  
 /* MEDIA QUERY*/
   
 @media screen and (max-width: 600px) {
