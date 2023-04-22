@@ -58,18 +58,6 @@ footer {
   margin: 0 0 10px 10px; /* Ajusta el margen de la imagen a tu gusto */
 }
 
-/*
-.sobre2 {
-  margin: 0; 
-}
-
-.sobre {
-  width: 100%;
-  overflow: hidden; 
-}
-
-*/
-
 .sobre {
   display: flex;
   width: 100%;
@@ -128,6 +116,48 @@ footer {
 .ayuda img {
   width: 24.78%;
   height: auto;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #00FF00;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-items: center;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto {
+  flex-basis: calc(25% - 20px);
+  margin: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.foto img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.foto p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
 }
 
 /* MEDIA QUERY*/
