@@ -76,7 +76,7 @@ footer {
   overflow: hidden;
 }
 
-.sobre2 {
+.sobre1 {
   flex: 1;
   padding: 200px;
   box-sizing: border-box;
@@ -92,6 +92,28 @@ footer {
   height: auto;
 }
 
+
+.sobre2 {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sobre3 {
+  flex: 1;
+  padding: 200px;
+  box-sizing: border-box;
+}
+
+.img3 {
+  flex: 1;
+  text-align: center;
+}
+
+.img3 img {
+  max-width: 80%;
+  height: auto;
+}
 
 
 .ayuda {
