@@ -58,14 +58,41 @@ footer {
   margin: 0 0 10px 10px; /* Ajusta el margen de la imagen a tu gusto */
 }
 
+/*
 .sobre2 {
-  margin: 0; /* Elimina el margen por defecto del párrafo */
+  margin: 0; 
 }
 
 .sobre {
   width: 100%;
-  overflow: hidden; /* Para que el contenedor tenga la altura de la imagen */
+  overflow: hidden; 
 }
+
+*/
+
+.sobre {
+  width: 50%;
+  overflow: hidden;
+}
+
+.sobre2 {
+  width: 50%;
+  float: left;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.img2 {
+  width: 100%;
+  float: right;
+  text-align: center;
+}
+
+.img2 img {
+  max-width: 50%;
+  height: auto;
+}
+
 
 .ayuda {
   display: flex;
