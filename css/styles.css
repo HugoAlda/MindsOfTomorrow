@@ -68,6 +68,7 @@ footer {
   flex: 1;
   padding: 200px;
   box-sizing: border-box;
+  font-size: 30px;
 }
 
 .img2 {
@@ -91,6 +92,7 @@ footer {
   flex: 1;
   padding: 200px;
   box-sizing: border-box;
+  font-size: 30px;
 }
 
 .img3 {
@@ -160,7 +162,7 @@ footer {
   color: #555;
 }
 
-/* MEDIA QUERY*/
+/* MEDIA QUERY
   
 @media screen and (max-width: 600px) {
   body {
@@ -249,4 +251,51 @@ footer {
   .texto6 {
     font-size: 37px;
   }
-}  
+} 
+
+*/
+
+@media screen and (max-width: 400px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+  .sobre {
+    display: block;
+  }
+  .sobre1 h1 {
+    font-size: 1.5em;
+  }
+  .sobre1 h3 {
+    font-size: 0.8em;
+  }
+  .contenedor h1 {
+    font-size: 1.5em;
+  }
+  .fila {
+    display: block;
+  }
+  .foto p {
+    font-size: 0.8em;
+  }
+  .sobre2 {
+    display: block;
+  }
+  .sobre3 h1 {
+    font-size: 1.5em;
+  }
+  .sobre3 h3 {
+    font-size: 0.8em;
+  }
+  .ayuda img {
+    width: 100%;
+  }
+  .feed h1 {
+    font-size: 1.5em;
+  }
+  footer h2 {
+    font-size: 0.8em;
+  }
+  footer h3 {
+    font-size: 0.8em;
+  }
+}
